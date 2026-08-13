@@ -1,0 +1,35 @@
+@theme inline {
+  /* Colors */
+  --color-background: var(--background);
+  --color-background-secondary: var(--background-secondary);
+  --color-foreground: var(--foreground);
+  --color-accent: var(--accent);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+
+  /* Typography */
+  --font-display: var(--font-cormorant);
+  --font-body: var(--font-inter);
+
+  /* Spacing */
+  --spacing-section: 6rem;
+  --spacing-element: 2rem;
+
+  /* Radius */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 1rem;
+
+  /* Shadows */
+  --shadow-subtle: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+:root {
+  /* Colors */
+  --background: #111111;
+  --background-secondary: #1A1A1A;
+  --foreground: #F5F1E8;
+  --accent: #B89A63;
+  --muted: #A8A39A;
+  --border: #2A2A2A;
+}
