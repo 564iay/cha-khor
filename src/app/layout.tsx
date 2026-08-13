@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     siteName: "The Cha Khor",
     images: [
       {
-        url: "/images/0. home/interior room.jfif",
+        url: "/images/0.-home/interior-room.jfif",
         width: 1200,
         height: 630,
       },
@@ -50,7 +50,7 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "Restaurant",
     "name": restaurant.name,
-    "image": "https://thechakhor.com/images/0.%20home/interior%20room.jfif",
+    "image": "https://thechakhor.com/images/0.-home/interior-room.jfif",
     "@id": "https://thechakhor.com",
     "url": "https://thechakhor.com",
     "telephone": restaurant.phone,
