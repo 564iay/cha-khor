@@ -114,7 +114,7 @@ export function MenuClient() {
                   <div key={item.id} className="flex justify-between items-start gap-8 group">
                     {item.image && (
                       <div className="hidden sm:block w-32 h-32 md:w-48 md:h-48 flex-shrink-0">
-                        <ImageReveal delay={0.1}>
+                        <ImageReveal delay={0.1} className="w-full h-full">
                           <div className="w-full h-full relative overflow-hidden border border-border/30 grayscale-[20%] group-hover:grayscale-0 transition-all duration-700">
                             <Image
                               src={item.image}
