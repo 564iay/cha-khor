@@ -25,11 +25,12 @@
 }
 
 :root {
-  /* Colors */
-  --background: #111111;
-  --background-secondary: #1A1A1A;
-  --foreground: #F5F1E8;
-  --accent: #B89A63;
-  --muted: #A8A39A;
+  /* Cinematic Palette */
+  --background: #1C1C1C; /* Charcoal Black */
+  --background-secondary: #4A1525; /* Deep Burgundy */
+  --foreground: #F5F1E8; /* Warm Ivory */
+  --foreground-secondary: #C8C0B8; /* Secondary */
+  --accent: #D4AF37; /* Warm Champagne Gold */
+  --muted: #918A84; /* Muted */
   --border: #2A2A2A;
 }
