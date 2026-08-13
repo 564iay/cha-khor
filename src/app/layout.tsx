@@ -16,8 +16,27 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "The Cha Khor Family Restaurant | Tehatta, Nadia",
-  description: "A premium digital hospitality experience. Family dining, crafted for every craving.",
+  title: {
+    template: "%s | The Cha Khor",
+    default: "The Cha Khor | Premium Family Restaurant in Tehatta",
+  },
+  description: "Experience Tehatta's premier dining destination. Authentic Indian flavors, vibrant Indo-Chinese dishes, and an unforgettable family atmosphere.",
+  keywords: ["Restaurant in Tehatta", "Best Biryani Tehatta", "The Cha Khor", "Family Dining", "Tehatta Food", "Indo-Chinese"],
+  openGraph: {
+    title: "The Cha Khor | Family Restaurant",
+    description: "Experience Tehatta's premier dining destination.",
+    url: "https://thechakhor.com",
+    siteName: "The Cha Khor",
+    images: [
+      {
+        url: "/images/0. home/interior room.jfif",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: "en_IN",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
