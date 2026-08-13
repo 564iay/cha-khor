@@ -81,7 +81,7 @@ export default function VisitPage() {
             {/* Right: Map / Visual */}
             <div className="relative w-full aspect-square lg:aspect-auto lg:h-full min-h-[500px] group overflow-hidden border border-border/50">
               <Image
-                src="/images/5.-exterior/images.jfif"
+                src="/images/5.-exterior/images.jpg"
                 alt="The Cha Khor Exterior"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-1000 ease-out"

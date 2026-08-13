@@ -23,7 +23,7 @@ export default function OurStoryPage() {
             {/* Image */}
             <div className="relative aspect-[4/5] w-full border border-border/50 overflow-hidden group">
               <Image
-                src="/images/0.-home/interior-room.jfif"
+                src="/images/0.-home/interior-room.jpg"
                 alt="The Cha Khor Interior"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-1000 ease-out"
