@@ -52,7 +52,7 @@ export function Introduction() {
             <div className="space-y-8 text-foreground-secondary md:text-lg max-w-xl mx-auto lg:mx-0 font-body font-light tracking-wide leading-relaxed">
               <TextReveal delay={0.3}>
                 <p>
-                  Welcome to The Cha Khor, a place where local flavors meet contemporary comfort. Whether you're gathering with family for a celebratory feast or dropping by for a quick, satisfying bite, our doors are open.
+                  Welcome to The Cha Khor, a place where local flavors meet contemporary comfort. Whether you&apos;re gathering with family for a celebratory feast or dropping by for a quick, satisfying bite, our doors are open.
                 </p>
               </TextReveal>
               <TextReveal delay={0.4}>

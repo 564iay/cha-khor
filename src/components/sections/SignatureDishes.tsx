@@ -18,7 +18,7 @@ export function SignatureDishes() {
 
   // Flatten all items and find the signature ones
   const allItems = menuCategories.flatMap(c => c.items);
-  const items = signatureItems.map(id => allItems.find(item => item.id === id)).filter(Boolean) as any[];
+  const items = signatureItems.map(id => allItems.find(item => item.id === id)).filter((item): item is NonNullable<typeof item> => Boolean(item));
 
   useGSAP(() => {
     const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;

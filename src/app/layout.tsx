@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, Inter } from "next/font/google";
+import { Cormorant_Garamond, Karla } from "next/font/google";
 import { SiteHeader } from "@/components/navigation/SiteHeader";
 import { MobileActionBar } from "@/components/navigation/MobileActionBar";
 import { restaurant } from "@/data/restaurant";
@@ -11,8 +11,8 @@ const cormorant = Cormorant_Garamond({
   weight: ["300", "400", "500", "600", "700"],
 });
 
-const inter = Inter({
-  variable: "--font-inter",
+const karla = Karla({
+  variable: "--font-karla",
   subsets: ["latin"],
 });
 
@@ -85,7 +85,7 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="en" className={`${cormorant.variable} ${inter.variable}`}>
+    <html lang="en" className={`${cormorant.variable} ${karla.variable}`}>
       <head>
         <script
           type="application/ld+json"

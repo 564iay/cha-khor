@@ -110,7 +110,7 @@ export function MenuClient() {
               </TextReveal>
               
               <div className="flex flex-col gap-12 md:gap-16">
-                {category.items.map((item, idx) => (
+                {category.items.map((item) => (
                   <div key={item.id} className="flex justify-between items-start gap-8 group">
                     {item.image && (
                       <div className="hidden sm:block w-32 h-32 md:w-48 md:h-48 flex-shrink-0">

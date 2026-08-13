@@ -40,7 +40,7 @@ export default function OurStoryPage() {
                   The Cha Khor was born from a simple belief: Tehatta deserved a dining experience that combined uncompromising quality with the warmth of true hospitality.
                 </p>
                 <p>
-                  We didn't set out to reinvent the wheel. We set out to perfect the classics. From our fragrant biryanis to our bold Indo-Chinese woks, every dish is prepared with fresh ingredients, precise technique, and a deep respect for flavor.
+                  We didn&apos;t set out to reinvent the wheel. We set out to perfect the classics. From our fragrant biryanis to our bold Indo-Chinese woks, every dish is prepared with fresh ingredients, precise technique, and a deep respect for flavor.
                 </p>
                 <p>
                   Whether you are gathering for a family celebration or stepping in for a quick, comforting meal, our doors are open. This is not just a restaurant; it is a space designed for our community to connect over great food.

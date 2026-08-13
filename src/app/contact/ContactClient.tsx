@@ -50,7 +50,7 @@ export function ContactClient() {
               
               <TextReveal delay={0.1}>
                 <p className="text-foreground-secondary text-lg leading-relaxed font-light">
-                  Whether you're planning a family celebration, a quiet dinner, or have a question about our menu, our team is here to assist you. 
+                  Whether you&apos;re planning a family celebration, a quiet dinner, or have a question about our menu, our team is here to assist you. 
                 </p>
               </TextReveal>
             </div>

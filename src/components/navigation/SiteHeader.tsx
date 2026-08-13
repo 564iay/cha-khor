@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
+import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { MagneticButton } from "@/components/animations/Reveal";
 
@@ -17,6 +18,7 @@ const navLinks = [
 export function SiteHeader() {
   const pathname = usePathname();
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -36,10 +38,14 @@ export function SiteHeader() {
       }`}
     >
       <div className="container mx-auto px-4 flex items-center justify-between">
-        {/* Mobile Menu Toggle (Placeholder) */}
+        {/* Mobile Menu Toggle */}
         <div className="md:hidden">
-          <button aria-label="Menu" className="p-2 -ml-2 text-foreground">
-            <span className="text-2xl">☰</span>
+          <button 
+            aria-label="Menu" 
+            className="p-3 -ml-3 text-foreground hover:text-accent transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent rounded-sm"
+            onClick={() => setIsMobileMenuOpen(true)}
+          >
+            <Menu className="w-6 h-6" />
           </button>
         </div>
 
@@ -81,6 +87,44 @@ export function SiteHeader() {
         
         {/* Mobile Placeholder right side to balance flex-between */}
         <div className="md:hidden w-10"></div>
+      </div>
+
+      {/* Mobile Menu Overlay */}
+      <div 
+        className={`fixed inset-0 bg-background/95 backdrop-blur-lg z-[100] transition-all duration-500 md:hidden flex flex-col ${
+          isMobileMenuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
+        }`}
+      >
+        <div className="container mx-auto px-4 py-6 flex justify-between items-center border-b border-border/20">
+          <span className="font-display text-2xl tracking-wider uppercase text-foreground">The Cha Khor</span>
+          <button 
+            aria-label="Close Menu" 
+            className="p-3 -mr-3 text-foreground hover:text-accent transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent rounded-sm"
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+            <X className="w-6 h-6" />
+          </button>
+        </div>
+        <nav className="flex flex-col items-center justify-center flex-1 gap-8 pb-20">
+          {navLinks.map((link) => {
+            const isActive = pathname === link.href;
+            return (
+              <Link
+                key={link.name}
+                href={link.href}
+                onClick={() => setIsMobileMenuOpen(false)}
+                className={`text-xl uppercase tracking-widest transition-colors ${
+                  isActive ? "text-accent" : "text-foreground hover:text-accent"
+                }`}
+              >
+                {link.name}
+              </Link>
+            );
+          })}
+          <Button asChild variant="outline" size="lg" className="mt-4 tracking-widest uppercase hover:bg-accent hover:text-background hover:border-accent transition-all duration-500 border-border">
+            <Link href="/visit" onClick={() => setIsMobileMenuOpen(false)}>Book A Table</Link>
+          </Button>
+        </nav>
       </div>
     </header>
   );
