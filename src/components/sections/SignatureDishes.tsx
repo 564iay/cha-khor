@@ -89,18 +89,20 @@ export function SignatureDishes() {
                 {/* Image (Alternating sides on desktop) */}
                 <div className={`w-full md:col-span-7 ${index % 2 !== 0 ? 'md:order-2' : ''}`}>
                   <ImageReveal>
-                    <div className="aspect-[4/5] md:aspect-square w-full bg-background relative overflow-hidden border border-border/50">
-                      {item.image && (
-                        <div className="w-full h-[120%] -top-[10%] relative signature-image">
-                          <Image 
-                            src={item.image} 
-                            alt={item.name} 
-                            fill 
-                            className="object-cover" 
-                          />
-                        </div>
-                      )}
-                      <div className="absolute inset-0 bg-background/20 group-hover:bg-background/0 transition-colors duration-1000 pointer-events-none" />
+                    <div className="aspect-[4/5] md:aspect-square w-full bg-background relative p-2 border border-accent/40 shadow-[0_0_20px_rgba(212,175,55,0.1)] group-hover:shadow-[0_0_30px_rgba(212,175,55,0.2)] group-hover:border-accent/60 transition-all duration-700">
+                      <div className="w-full h-full relative overflow-hidden border border-accent/30">
+                        {item.image && (
+                          <div className="w-full h-[120%] -top-[10%] relative signature-image">
+                            <Image 
+                              src={item.image} 
+                              alt={item.name} 
+                              fill 
+                              className="object-cover" 
+                            />
+                          </div>
+                        )}
+                        <div className="absolute inset-0 bg-background/20 group-hover:bg-background/0 transition-colors duration-1000 pointer-events-none" />
+                      </div>
                     </div>
                   </ImageReveal>
                 </div>

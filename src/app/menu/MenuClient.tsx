@@ -115,13 +115,15 @@ export function MenuClient() {
                     {item.image && (
                       <div className="hidden sm:block w-32 h-32 md:w-48 md:h-48 flex-shrink-0">
                         <ImageReveal delay={0.1} className="w-full h-full">
-                          <div className="w-full h-full relative overflow-hidden border border-border/30 grayscale-[20%] group-hover:grayscale-0 transition-all duration-700">
-                            <Image
-                              src={item.image}
-                              alt={item.name}
-                              fill
-                              className="object-cover group-hover:scale-105 transition-transform duration-700"
-                            />
+                          <div className="w-full h-full relative p-1.5 bg-background border border-accent/40 shadow-[0_0_15px_rgba(212,175,55,0.08)] group-hover:shadow-[0_0_20px_rgba(212,175,55,0.15)] group-hover:border-accent/60 transition-all duration-700">
+                            <div className="w-full h-full relative overflow-hidden border border-accent/30 grayscale-[20%] group-hover:grayscale-0 transition-all duration-700">
+                              <Image
+                                src={item.image}
+                                alt={item.name}
+                                fill
+                                className="object-cover group-hover:scale-105 transition-transform duration-700"
+                              />
+                            </div>
                           </div>
                         </ImageReveal>
                       </div>
@@ -147,13 +149,15 @@ export function MenuClient() {
                       </TextReveal>
                       
                       {item.image && (
-                        <div className="sm:hidden relative w-full aspect-[4/3] mt-6 flex-shrink-0 overflow-hidden border border-border/30">
-                          <Image
-                            src={item.image}
-                            alt={item.name}
-                            fill
-                            className="object-cover"
-                          />
+                        <div className="sm:hidden relative w-full aspect-[4/3] mt-6 flex-shrink-0 p-1.5 bg-background border border-accent/30 shadow-[0_0_15px_rgba(212,175,55,0.05)]">
+                          <div className="w-full h-full relative overflow-hidden border border-accent/20">
+                            <Image
+                              src={item.image}
+                              alt={item.name}
+                              fill
+                              className="object-cover"
+                            />
+                          </div>
                         </div>
                       )}
                     </div>
