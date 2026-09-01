@@ -1,12 +1,12 @@
 export const images = {
   homeHero: {
     src: "/images/0.-home/interior-room.jpg",
-    alt: "The Cha Khor interior",
+    alt: "[Your Restaurant] interior",
     isPlaceholder: false,
   },
   introSide: {
     src: "/images/0.-home/people-full.jpg",
-    alt: "People enjoying at The Cha Khor",
+    alt: "People enjoying at [Your Restaurant]",
     isPlaceholder: false,
   },
   experience: {

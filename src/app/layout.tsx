@@ -17,18 +17,18 @@ const karla = Karla({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://thechakhor.com"),
+  metadataBase: new URL("https://yourrestaurant.com"),
   title: {
-    template: "%s | The Cha Khor",
-    default: "The Cha Khor | Premium Family Restaurant in Tehatta",
+    template: "%s | [Your Restaurant Name]",
+    default: "[Your Restaurant Name] | Premium Dining in [Your City]",
   },
-  description: "Experience Tehatta's premier dining destination. Authentic Indian flavors, vibrant Indo-Chinese dishes, and an unforgettable family atmosphere.",
-  keywords: ["Restaurant in Tehatta", "Best Biryani Tehatta", "The Cha Khor", "Family Dining", "Tehatta Food", "Indo-Chinese"],
+  description: "Experience [Your City]'s premier dining destination. Authentic flavors and an unforgettable atmosphere.",
+  keywords: ["Restaurant in [Your City]", "Best Food [Your City]", "[Your Restaurant Name]", "Family Dining", "[Your City] Food"],
   openGraph: {
-    title: "The Cha Khor | Family Restaurant",
-    description: "Experience Tehatta's premier dining destination.",
-    url: "https://thechakhor.com",
-    siteName: "The Cha Khor",
+    title: "[Your Restaurant Name] | Family Restaurant",
+    description: "Experience [Your City]'s premier dining destination.",
+    url: "https://yourrestaurant.com",
+    siteName: "[Your Restaurant Name]",
     images: [
       {
         url: "/images/0.-home/interior-room.jpg",
@@ -50,22 +50,22 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "Restaurant",
     "name": restaurant.name,
-    "image": "https://thechakhor.com/images/0.-home/interior-room.jpg",
-    "@id": "https://thechakhor.com",
-    "url": "https://thechakhor.com",
+    "image": "https://yourrestaurant.com/images/0.-home/interior-room.jpg",
+    "@id": "https://yourrestaurant.com",
+    "url": "https://yourrestaurant.com",
     "telephone": restaurant.phone,
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Tehatta",
+      "streetAddress": "[123 Main Street]",
       "addressLocality": restaurant.city,
       "addressRegion": restaurant.state,
       "postalCode": restaurant.pinCode,
-      "addressCountry": "IN"
+      "addressCountry": "[Country Code]"
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 23.7226, // Approximate for Tehatta
-      "longitude": 88.5284
+      "latitude": 0.0000, // Replace with your latitude
+      "longitude": 0.0000 // Replace with your longitude
     },
     "openingHoursSpecification": {
       "@type": "OpeningHoursSpecification",

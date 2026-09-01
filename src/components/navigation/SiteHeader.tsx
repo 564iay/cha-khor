@@ -51,7 +51,7 @@ export function SiteHeader() {
 
         {/* Logo/Brand */}
         <Link href="/" className="font-display text-2xl md:text-3xl tracking-wider uppercase text-foreground">
-          The Cha Khor
+          [Your Restaurant Name]
         </Link>
 
         {/* Desktop Navigation */}
@@ -96,7 +96,7 @@ export function SiteHeader() {
         }`}
       >
         <div className="container mx-auto px-4 py-6 flex justify-between items-center border-b border-border/20">
-          <span className="font-display text-2xl tracking-wider uppercase text-foreground">The Cha Khor</span>
+          <span className="font-display text-2xl tracking-wider uppercase text-foreground">[Your Restaurant Name]</span>
           <button 
             aria-label="Close Menu" 
             className="p-3 -mr-3 text-foreground hover:text-accent transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent rounded-sm"

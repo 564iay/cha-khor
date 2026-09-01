@@ -15,7 +15,7 @@ export default function OurStoryPage() {
           </TextReveal>
           <TextReveal delay={0.1}>
             <h1 className="font-display text-5xl md:text-7xl lg:text-8xl tracking-tight text-foreground max-w-4xl mx-auto mb-8">
-              ROOTED IN TEHATTA.
+              ROOTED IN [YOUR CITY].
             </h1>
           </TextReveal>
         </div>
@@ -30,7 +30,7 @@ export default function OurStoryPage() {
               <div className="relative aspect-[4/5] w-full border border-border/50 overflow-hidden group">
                 <Image
                   src="/images/0.-home/interior-room.jpg"
-                  alt="The Cha Khor Interior"
+                  alt="[Your Restaurant] Interior"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-1000 ease-out"
                 />
@@ -47,7 +47,7 @@ export default function OurStoryPage() {
               <div className="space-y-6 text-muted leading-relaxed text-lg">
                 <TextReveal delay={0.2}>
                   <p>
-                    The Cha Khor was born from a simple belief: Tehatta deserved a dining experience that combined uncompromising quality with the warmth of true hospitality.
+                    [Your Restaurant Name] was born from a simple belief: [Your City] deserved a dining experience that combined uncompromising quality with the warmth of true hospitality.
                   </p>
                 </TextReveal>
                 <TextReveal delay={0.3}>
@@ -113,7 +113,7 @@ export default function OurStoryPage() {
                 </div>
                 <h3 className="font-display text-2xl text-foreground mb-4">Community First</h3>
                 <p className="text-muted">
-                  A welcoming atmosphere designed to make every family, group, and individual in Tehatta feel right at home.
+                  A welcoming atmosphere designed to make every family, group, and individual in [Your City] feel right at home.
                 </p>
               </div>
             </TextReveal>
