@@ -40,7 +40,7 @@ export function Introduction() {
           {/* Left: Typography */}
           <div className="flex-1 text-center lg:text-left">
             <TextReveal>
-              <h2 className="font-display text-5xl md:text-6xl lg:text-7xl leading-tight text-foreground mb-12">
+              <h2 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight text-foreground mb-12">
                 A TABLE<br />FOR EVERY<br />MOOD.
               </h2>
             </TextReveal>

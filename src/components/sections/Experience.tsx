@@ -33,12 +33,12 @@ export function Experience() {
   }, { scope: sectionRef });
 
   return (
-    <section ref={sectionRef} className="py-32 md:py-48 bg-background relative overflow-hidden">
+    <section ref={sectionRef} className="py-24 md:py-48 bg-background relative overflow-hidden">
       <div className="container mx-auto px-4">
         
         <div className="text-center mb-24 max-w-4xl mx-auto">
           <TextReveal>
-            <h2 className="font-display text-5xl md:text-6xl lg:text-7xl text-foreground mb-8 leading-tight">
+            <h2 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-foreground mb-8 leading-tight">
               COME FOR THE FOOD.<br />
               STAY FOR THE MOMENT.
             </h2>

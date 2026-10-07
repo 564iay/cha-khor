@@ -132,12 +132,12 @@ export function Hero() {
         </span>
         
         <div ref={titleWrapperRef} className="overflow-hidden pb-2 mb-4">
-          <h1 ref={titleRef} className="font-display text-5xl md:text-7xl lg:text-9xl tracking-tight text-foreground leading-[1.1]">
+          <h1 ref={titleRef} className="font-display text-4xl sm:text-5xl md:text-7xl lg:text-9xl tracking-tight text-foreground leading-[1.1]">
             {restaurant.name.toUpperCase()}
           </h1>
         </div>
         
-        <p ref={subtitleRef} className="font-display text-xl md:text-2xl lg:text-3xl text-foreground-secondary max-w-2xl mb-12 italic">
+        <p ref={subtitleRef} className="font-display text-lg sm:text-xl md:text-2xl lg:text-3xl text-foreground-secondary max-w-2xl mb-12 italic">
           A welcoming dining destination in Tehatta for memorable meals and good moments.
         </p>
         

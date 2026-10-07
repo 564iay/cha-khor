@@ -59,7 +59,7 @@ export function SignatureDishes() {
   }, { scope: containerRef });
 
   return (
-    <section ref={containerRef} className="py-32 bg-background-secondary border-t border-border">
+    <section ref={containerRef} className="py-24 md:py-32 bg-background-secondary border-t border-border">
       <div className="container mx-auto px-4 max-w-5xl">
         
         <div className="text-center mb-32">
@@ -69,7 +69,7 @@ export function SignatureDishes() {
             </span>
           </TextReveal>
           <TextReveal delay={0.2}>
-            <h2 className="font-display text-5xl md:text-6xl lg:text-7xl text-foreground mb-8">
+            <h2 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-foreground mb-8">
               SIGNATURE SELECTION
             </h2>
           </TextReveal>
@@ -116,7 +116,7 @@ export function SignatureDishes() {
                   </TextReveal>
                   
                   <TextReveal delay={0.1}>
-                    <h3 className="font-display text-4xl md:text-5xl lg:text-6xl text-foreground mb-6 leading-tight">
+                    <h3 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-foreground mb-6 leading-tight">
                       {item.name}
                     </h3>
                   </TextReveal>

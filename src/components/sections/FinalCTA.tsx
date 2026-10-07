@@ -51,15 +51,15 @@ export function FinalCTA() {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 flex flex-col items-center text-center">
         <TextReveal>
-          <h2 className="font-display text-6xl md:text-8xl lg:text-9xl mb-16 tracking-tight text-foreground leading-none">
+          <h2 className="font-display text-4xl sm:text-6xl md:text-8xl lg:text-9xl mb-12 md:mb-16 tracking-tight text-foreground leading-none">
             YOUR TABLE<br />AWAITS.
           </h2>
         </TextReveal>
         
-        <div className="flex flex-col sm:flex-row gap-8">
+        <div className="flex flex-col sm:flex-row gap-6 w-full sm:w-auto px-4 sm:px-0">
           <TextReveal delay={0.2}>
             <MagneticButton>
-              <Button asChild size="lg" className="tracking-[0.2em] uppercase bg-accent text-background hover:bg-accent/90 px-10 py-6">
+              <Button asChild size="lg" className="w-full sm:w-auto tracking-[0.2em] uppercase bg-accent text-background hover:bg-accent/90 px-6 py-6 md:px-10 md:py-6 text-xs md:text-sm">
                 <Link href="/menu">View Menu</Link>
               </Button>
             </MagneticButton>
@@ -67,7 +67,7 @@ export function FinalCTA() {
           
           <TextReveal delay={0.3}>
             <MagneticButton>
-              <Button asChild variant="outline" size="lg" className="tracking-[0.2em] uppercase border-border hover:border-accent hover:text-accent hover:bg-transparent px-10 py-6">
+              <Button asChild variant="outline" size="lg" className="w-full sm:w-auto tracking-[0.2em] uppercase border-border hover:border-accent hover:text-accent hover:bg-transparent px-6 py-6 md:px-10 md:py-6 text-xs md:text-sm">
                 <Link href="/visit">Get Directions</Link>
               </Button>
             </MagneticButton>
