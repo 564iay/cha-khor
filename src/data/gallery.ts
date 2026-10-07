@@ -15,8 +15,8 @@ export const images = {
     isPlaceholder: false,
   },
   finalCta: {
-    src: "/images/1.-signature-food/chicken-biriyani.jpg",
-    alt: "Close-up of premium food presentation",
+    src: "/images/5.-exterior/exterior.png",
+    alt: "Exterior of Holiday Restaurant",
     isPlaceholder: false,
   },
 };
