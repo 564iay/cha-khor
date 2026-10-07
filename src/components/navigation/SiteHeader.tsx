@@ -51,7 +51,7 @@ export function SiteHeader() {
 
         {/* Logo/Brand */}
         <Link href="/" className="font-display text-2xl md:text-3xl tracking-wider uppercase text-foreground">
-          [Your Restaurant Name]
+          HOLIDAY
         </Link>
 
         {/* Desktop Navigation */}
@@ -80,7 +80,7 @@ export function SiteHeader() {
         <div className="hidden md:block">
           <MagneticButton>
             <Button asChild variant="outline" size="sm" className="tracking-widest uppercase hover:bg-accent hover:text-background hover:border-accent transition-all duration-500">
-              <Link href="/visit">Book A Table</Link>
+              <a href="tel:+917014024672">Call Now</a>
             </Button>
           </MagneticButton>
         </div>
@@ -96,7 +96,7 @@ export function SiteHeader() {
         }`}
       >
         <div className="container mx-auto px-4 py-6 flex justify-between items-center border-b border-border/20">
-          <span className="font-display text-2xl tracking-wider uppercase text-foreground">[Your Restaurant Name]</span>
+          <span className="font-display text-2xl tracking-wider uppercase text-foreground">HOLIDAY</span>
           <button 
             aria-label="Close Menu" 
             className="p-3 -mr-3 text-foreground hover:text-accent transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent rounded-sm"
@@ -122,7 +122,7 @@ export function SiteHeader() {
             );
           })}
           <Button asChild variant="outline" size="lg" className="mt-4 tracking-widest uppercase hover:bg-accent hover:text-background hover:border-accent transition-all duration-500 border-border">
-            <Link href="/visit" onClick={() => setIsMobileMenuOpen(false)}>Book A Table</Link>
+            <a href="tel:+917014024672" onClick={() => setIsMobileMenuOpen(false)}>Call Now</a>
           </Button>
         </nav>
       </div>

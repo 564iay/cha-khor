@@ -60,7 +60,7 @@ export function FinalCTA() {
           <TextReveal delay={0.2}>
             <MagneticButton>
               <Button asChild size="lg" className="tracking-[0.2em] uppercase bg-accent text-background hover:bg-accent/90 px-10 py-6">
-                <Link href="/menu">Explore Menu</Link>
+                <Link href="/menu">View Menu</Link>
               </Button>
             </MagneticButton>
           </TextReveal>

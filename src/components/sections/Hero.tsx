@@ -138,18 +138,18 @@ export function Hero() {
         </div>
         
         <p ref={subtitleRef} className="font-display text-xl md:text-2xl lg:text-3xl text-foreground-secondary max-w-2xl mb-12 italic">
-          Family dining, crafted for every craving.
+          A welcoming dining destination in Tehatta for memorable meals and good moments.
         </p>
         
         <div ref={ctaRef} className="flex flex-col sm:flex-row gap-6">
           <MagneticButton>
             <Button asChild size="lg" className="tracking-widest uppercase bg-accent text-background hover:bg-accent/90 transition-colors">
-              <Link href="/menu">Explore Menu</Link>
+              <Link href="/menu">View Menu</Link>
             </Button>
           </MagneticButton>
           <MagneticButton>
             <Button asChild variant="outline" size="lg" className="tracking-widest uppercase hover:bg-accent hover:text-background hover:border-accent transition-all duration-500 border-border">
-              <Link href="/visit">Visit Us</Link>
+              <a href="tel:+917014024672">Call Now</a>
             </Button>
           </MagneticButton>
         </div>

@@ -1,15 +1,15 @@
 export const restaurant = {
-  name: "[Your Restaurant Name]",
-  city: "[Your City]",
-  district: "[Your District]",
-  state: "[Your State]",
-  pinCode: "[ZIP Code]",
-  address: "[123 Main Street, Your City, Your State — ZIP Code, Country]",
-  phone: "+1 (555) 123-4567", // VERIFIED
-  whatsapp: null, // NEEDS VERIFICATION
-  hours: "10:00 AM – 11:00 PM", // VERIFIED
+  name: "Holiday Restaurant",
+  city: "Tehatta",
+  district: "Tehatta",
+  state: "West Bengal",
+  pinCode: "741160",
+  address: "Tehatta Road, Tehatta, West Bengal 741160, India",
+  phone: "+91 70140 24672",
+  whatsapp: null,
+  hours: "11:00 AM – 11:00 PM",
   email: null,
-  mapLink: "https://maps.google.com/",
+  mapLink: "https://maps.google.com/?q=Holiday+Restaurant+Tehatta",
   features: [
     "Family Dining",
     "Lunch & Dinner",

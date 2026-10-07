@@ -108,7 +108,7 @@ export default function VisitPage() {
               <div className="relative w-full aspect-square lg:aspect-auto lg:h-full min-h-[500px] group overflow-hidden border border-border/50">
                 <Image
                   src="/images/5.-exterior/images.jpg"
-                  alt="[Your Restaurant] Exterior"
+                  alt="Holiday Restaurant Exterior"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-1000 ease-out"
                 />

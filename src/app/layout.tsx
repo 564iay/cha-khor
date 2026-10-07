@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Cormorant_Garamond, Karla } from "next/font/google";
 import { SiteHeader } from "@/components/navigation/SiteHeader";
+import { SiteFooter } from "@/components/navigation/SiteFooter";
 import { MobileActionBar } from "@/components/navigation/MobileActionBar";
 import { restaurant } from "@/data/restaurant";
 import "./globals.css";
@@ -19,16 +20,16 @@ const karla = Karla({
 export const metadata: Metadata = {
   metadataBase: new URL("https://yourrestaurant.com"),
   title: {
-    template: "%s | [Your Restaurant Name]",
-    default: "[Your Restaurant Name] | Premium Dining in [Your City]",
+    template: "%s | Holiday Restaurant",
+    default: "Holiday Restaurant | Premium Dining in Tehatta",
   },
-  description: "Experience [Your City]'s premier dining destination. Authentic flavors and an unforgettable atmosphere.",
-  keywords: ["Restaurant in [Your City]", "Best Food [Your City]", "[Your Restaurant Name]", "Family Dining", "[Your City] Food"],
+  description: "Holiday Restaurant in Tehatta, West Bengal. Discover a welcoming local dining destination on Tehatta Road.",
+  keywords: ["Holiday Restaurant Tehatta", "restaurant in Tehatta", "Tehatta restaurant", "family restaurant Tehatta", "restaurants near Tehatta"],
   openGraph: {
-    title: "[Your Restaurant Name] | Family Restaurant",
-    description: "Experience [Your City]'s premier dining destination.",
+    title: "Holiday Restaurant | Family Restaurant",
+    description: "Holiday Restaurant in Tehatta, West Bengal. Discover a welcoming local dining destination on Tehatta Road.",
     url: "https://yourrestaurant.com",
-    siteName: "[Your Restaurant Name]",
+    siteName: "Holiday Restaurant",
     images: [
       {
         url: "/images/0.-home/interior-room.jpg",
@@ -56,11 +57,11 @@ export default function RootLayout({
     "telephone": restaurant.phone,
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "[123 Main Street]",
+      "streetAddress": "Tehatta Road",
       "addressLocality": restaurant.city,
       "addressRegion": restaurant.state,
       "postalCode": restaurant.pinCode,
-      "addressCountry": "[Country Code]"
+      "addressCountry": "IN"
     },
     "geo": {
       "@type": "GeoCoordinates",
@@ -97,6 +98,7 @@ export default function RootLayout({
         <main className="pt-20 pb-16 md:pb-0 min-h-[calc(100vh-5rem)]">
           {children}
         </main>
+        <SiteFooter />
         <MobileActionBar />
       </body>
     </html>

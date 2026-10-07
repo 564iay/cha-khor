@@ -52,12 +52,12 @@ export function Introduction() {
             <div className="space-y-8 text-foreground-secondary md:text-lg max-w-xl mx-auto lg:mx-0 font-body font-light tracking-wide leading-relaxed">
               <TextReveal delay={0.3}>
                 <p>
-                  Welcome to [Your Restaurant Name], a place where local flavors meet contemporary comfort. Whether you&apos;re gathering with family for a celebratory feast or dropping by for a quick, satisfying bite, our doors are open.
+                  Holiday Restaurant brings together good food and a welcoming atmosphere in the heart of Tehatta.
                 </p>
               </TextReveal>
               <TextReveal delay={0.4}>
                 <p>
-                  We believe in serving honest, flavorful food crafted with care. From our signature biryanis to our comforting Indo-Chinese selections, every dish is prepared to bring people together.
+                  Whether you&apos;re stopping by for a meal or spending time with family and friends, Holiday is designed to make every visit comfortable and enjoyable.
                 </p>
               </TextReveal>
             </div>

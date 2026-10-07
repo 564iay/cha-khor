@@ -15,7 +15,7 @@ export default function OurStoryPage() {
           </TextReveal>
           <TextReveal delay={0.1}>
             <h1 className="font-display text-5xl md:text-7xl lg:text-8xl tracking-tight text-foreground max-w-4xl mx-auto mb-8">
-              ROOTED IN [YOUR CITY].
+              ROOTED IN TEHATTA.
             </h1>
           </TextReveal>
         </div>
@@ -30,7 +30,7 @@ export default function OurStoryPage() {
               <div className="relative aspect-[4/5] w-full border border-border/50 overflow-hidden group">
                 <Image
                   src="/images/0.-home/interior-room.jpg"
-                  alt="[Your Restaurant] Interior"
+                  alt="Holiday Restaurant Interior"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-1000 ease-out"
                 />
@@ -47,17 +47,17 @@ export default function OurStoryPage() {
               <div className="space-y-6 text-muted leading-relaxed text-lg">
                 <TextReveal delay={0.2}>
                   <p>
-                    [Your Restaurant Name] was born from a simple belief: [Your City] deserved a dining experience that combined uncompromising quality with the warmth of true hospitality.
+                    Holiday Restaurant brings together good food and a welcoming atmosphere in the heart of Tehatta.
                   </p>
                 </TextReveal>
                 <TextReveal delay={0.3}>
                   <p>
-                    We didn&apos;t set out to reinvent the wheel. We set out to perfect the classics. From our fragrant biryanis to our bold Indo-Chinese woks, every dish is prepared with fresh ingredients, precise technique, and a deep respect for flavor.
+                    We set out to create a dining experience that combines quality food with the warmth of true hospitality. Every dish is prepared with fresh ingredients and a deep respect for flavor.
                   </p>
                 </TextReveal>
                 <TextReveal delay={0.4}>
                   <p>
-                    Whether you are gathering for a family celebration or stepping in for a quick, comforting meal, our doors are open. This is not just a restaurant; it is a space designed for our community to connect over great food.
+                    Whether you're stopping by for a meal or spending time with family and friends, Holiday is designed to make every visit comfortable and enjoyable.
                   </p>
                 </TextReveal>
               </div>
@@ -113,7 +113,7 @@ export default function OurStoryPage() {
                 </div>
                 <h3 className="font-display text-2xl text-foreground mb-4">Community First</h3>
                 <p className="text-muted">
-                  A welcoming atmosphere designed to make every family, group, and individual in [Your City] feel right at home.
+                  A welcoming atmosphere designed to make every family, group, and individual in Tehatta feel right at home.
                 </p>
               </div>
             </TextReveal>
