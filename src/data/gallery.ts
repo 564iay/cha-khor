@@ -46,5 +46,5 @@ export const galleryImages = [
   { id: "gal-int-2", src: "/images/0.-home/people-full.jpg", category: "restaurant", alt: "People Dining", isPlaceholder: false, featured: false },
   
   // Exterior
-  { id: "gal-ext-1", src: "/images/5.-exterior/images.jpg", category: "restaurant", alt: "Exterior", isPlaceholder: false, featured: false },
+  { id: "gal-ext-1", src: "/images/5.-exterior/exterior.png", category: "restaurant", alt: "Exterior", isPlaceholder: false, featured: false },
 ];
